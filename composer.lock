@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cf424163642643956a9363faf5861f71",
+    "content-hash": "27c2ecb5fc515d31a86df81ba21c881f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1870,6 +1870,55 @@
                 "source": "https://github.com/drupal/core-recommended/tree/9.1.5"
             },
             "time": "2021-03-04T14:36:14+00:00"
+        },
+        {
+            "name": "drupal/fullcalendar_view",
+            "version": "5.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/fullcalendar_view.git",
+                "reference": "5.0.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/fullcalendar_view-5.0.8.zip",
+                "reference": "5.0.8",
+                "shasum": "5eb97f50787231f53187b485bb39e53847d726a9"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "5.0.8",
+                    "datestamp": "1615420063",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Mingsong",
+                    "homepage": "https://www.drupal.org/user/2986445"
+                }
+            ],
+            "description": "This is a lightweight View plugin module that provides a calendar view format powered by FullCalendar JavaScript.",
+            "homepage": "http://drupal.org/project/fullcalendar_view",
+            "keywords": [
+                "Drupal",
+                "fullcalendar_view"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/fullcalendar_view",
+                "issues": "http://drupal.org/project/issues/fullcalendar_view"
+            }
         },
         {
             "name": "drush/drush",
