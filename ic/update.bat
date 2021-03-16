@@ -1,5 +1,7 @@
 @echo off
 cd ..
 call git pull
-call composer install
-call drush updatedb
+REM call composer install
+call composer --version
+REM call drush updatedb
+call drush --version
